@@ -25,7 +25,12 @@ if (argv.usage) {
 
     con.query(argv.query, function (err, result, fields) {
         if (err) throw err;
-        console.log(result);
+        if (argv.json) {
+	        var res = JSON.stringify(result,null, 4);
+            console.log(res);
+        } else {
+            console.log(result);
+        }
     });
 
     con.end();
@@ -34,7 +39,8 @@ if (argv.usage) {
 }
 
 function printInfo() {
-    console.log('\x1b[33m%s\x1b[0m', "Execute: node db_connect [OPTIONS] ... > [FILE]");
+    console.log('\x1b[33m%s\x1b[0m', "Execute: node db_connect [OPTIONS]");
     console.log("\t--query\t\t[String]\tMySQL query");
+    console.log("\t--json\t\t\t\tOutput as JSON format");
     console.log("\t--usage\t\t\t\tPrint this information");
 }
