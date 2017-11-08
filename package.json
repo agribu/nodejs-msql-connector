@@ -1,0 +1,21 @@
+{
+  "name": "db_connect",
+  "version": "1.0.0",
+  "description": "This is a simple example for connecting to MySQL databases and execute queries via CLI",
+  "main": "db_connect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MySQL",
+    "Connector"
+  ],
+  "repository": "https://github.com/agribu/nodejs-msql-connector",
+  "author": "agribu",
+  "license": "GFDL-1.3",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mysql": "^2.15.0",
+    "yargs": "^10.0.3"
+  }
+}
