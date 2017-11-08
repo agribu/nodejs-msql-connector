@@ -1,8 +1,8 @@
 {
-  "name": "db_connect",
+  "name": "nodejs-mysql-connector",
   "version": "1.0.0",
   "description": "This is a simple example for connecting to MySQL databases and execute queries via CLI",
-  "main": "db_connect.js",
+  "main": "mysqlc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
