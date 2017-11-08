@@ -16,4 +16,4 @@ nodejs db_connect.js --query="select * from Persons;"
 nodejs db_connect.js --query="select * from Persons;" > myfile.json
 ```
 
-Lisence: GNU GPLv3
+License: GNU GPLv3
