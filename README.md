@@ -12,8 +12,6 @@ Examples:
 nodejs db_connect.js --usage
 # A simple MySQL query
 nodejs db_connect.js --query="select * from Persons;"
-# For saving query results as json files
-nodejs db_connect.js --query="select * from Persons;" > myfile.json
 ```
 
 License: GNU GPLv3
