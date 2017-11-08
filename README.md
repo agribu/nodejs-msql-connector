@@ -20,7 +20,7 @@ Extended Examples:
 # Retrieve all tables of the configured database as JSON format
 nodejs mysqlc_ext.js --getTables
 # Retrieve all columns of a certain table as JSON format
-nodejs mysqlc.js --getCols='db_table'
+nodejs mysqlc_ext.js --getCols='db_table'
 ```
 
 License: GNU GPLv3
